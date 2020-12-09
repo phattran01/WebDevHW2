@@ -1,0 +1,37 @@
+footer {
+    background-color: #7afbff;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #00204b;
+    padding: 10px;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: #00204b;
+}
+
+#notice { 
+    width: 80%;
+    text-align: center;
+}
+
+.headline {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    text-decoration-color: red;
+    color: yellow;
+}
+
+h1 {
+    text-shadow: 2px 2px red;
+    background-color: 50% transparent;
+    font-family: sans-serif;
+    font-size: 4em;
+}
+
+#feature {
+    font-size: small;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    width: 80%;
+    filter: drop-shadow();
+}

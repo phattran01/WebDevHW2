@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Music Survey</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="music.css">
+    </head>
+
+    <body>
+
+        <div id="wrapper">
+
+            <h3> Music Survey</h3>
+            <form action="http://webdevbasics.net/scripts/pacific.php" method="post">
+
+                Name:<br> <input type="text" name="name"> <br>
+                E-Mail:<br> <input type="email" name="email"><br>
+                <br>
+
+                <div id="border">
+                Select your favorite type of music:<br /> 
+                <form action="http://webdevbasics.net/scripts/pacific.php" method="post">
+
+                    <input type="checkbox" name="favorite1" value="Pop"> Pop<br>
+                    <input type="checkbox" name="favorite2" value="Classic"> Classic<br>
+                    <input type="checkbox" name="favorite3" value="Rock"> Rock<br>
+                    <input type="checkbox" name="favorite1" value="Folk"> Folk<br>
+                    <input type="checkbox" name="favorite2" value="Rap"> Rap<br>
+                    <input type="checkbox" name="favorite3" value="Other"> Other<br>
+
+                </form>
+                </div>
+                <br>
+
+                <div id="bor">
+                Select how often you purchase Music CDs:<br />
+                <form action="http://webdevbasics.net/scripts/pacific.php" method="post">
+
+                    <input type="radio" name="joke" value="choice1">Weekly<br>
+                    <input type="radio" name="joke" value="choice2">A few CDs each year<br>
+                    <input type="radio" name="joke" value="choice3">Monthly<br>
+                    <input type="radio" name="joke" value="choice4">Never<br>
+
+                </form>
+                </div>
+                <br>
+
+                Select the locations you listen to music:<br> 
+                <select name="cars" multiple>
+
+                    <option value="home">At Home</option>
+                    <option value="car">In the car</option>
+                    <option value="Mp3">Anywhere</option>
+
+                </select>
+                <br><br>
+                What role does music play in your life?<br> <textarea rows="3" cols="60" name="comment" form="usrform"></textarea>
+
+                <input type="reset" value="Clear form">
+                <input type="submit" value="Submit now">
+
+            </form>
+        </div>
+    </body>
+</html>

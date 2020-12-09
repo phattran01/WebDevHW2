@@ -1,0 +1,24 @@
+body {
+    background-color: antiquewhite;
+}
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 30%;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    padding-left: 30%;
+    padding-right: 30%;
+}
+div {
+    text-align: center;
+}
